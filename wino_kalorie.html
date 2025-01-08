@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wino gronowe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 10px;
+        }
+        .spacer {
+            height: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #28a745;
+            color: white;
+        }
+        .highlight {
+            background-color: #f4f4f4;
+        }
+        .ingredients {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 16px;
+        }
+        .ingredients strong {
+            color: red;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+            table {
+                font-size: 12px;
+            }
+            .ingredients {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Wino gronowe czerwone półsłodkie<br>
+    <strong>Producent:</strong> Winnica Bruntelesa</p>
+
+    <div class="spacer"></div>
+
+    <img src="czerwone_pol_slodkie.png" alt="Zdjęcie wina">
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Wartość odżywcza</th>
+                <th>w 100 ml</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wartość energetyczna</td>
+                <td>291 kJ / 70 kcal</td>
+            </tr>
+            <tr class="highlight">
+                <td>Tłuszcz</td>
+                <td>0 g</td>
+            </tr>
+            <tr>
+                <td>&mdash; w tym kwasy tłuszczowe nasycone</td>
+                <td>0 g</td>
+            </tr>
+            <tr class="highlight">
+                <td>Węglowodany</td>
+                <td>1,1 g</td>
+            </tr>
+            <tr>
+                <td>&mdash; w tym cukry</td>
+                <td>&lt;0,5 g</td>
+            </tr>
+            <tr class="highlight">
+                <td>Białko</td>
+                <td>&lt;0,5 g</td>
+            </tr>
+            <tr>
+                <td>Sól</td>
+                <td>0,01 g</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="ingredients">
+        <h2>SKŁADNIKI</h2>
+        <p>Winogrona, sacharoza (cukier),<br>
+        Konserwanty i przeciwutleniacze: <strong>pirosiarczyn potasu E224</strong></p>
+    </div>
+</body>
+</html>
